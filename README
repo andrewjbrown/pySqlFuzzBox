@@ -1,0 +1,6 @@
+This is a basic tool to take a series of SQL files and push them as "clients" connecting to the postgres server.
+The payloads will exist as sql files that can be loaded at random or by choice of the user.
+
+So far we use basic threads as each "client" and they will connect to their own postgresql stream.
+
+Nothing is done.
