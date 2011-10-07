@@ -4,7 +4,6 @@ Created on Oct 7, 2011
 @author: nemo@whipping-post.com
 '''
 
-import sys
 import thread
 
 class threadedClients(object):
@@ -18,9 +17,15 @@ class threadedClients(object):
         '''
         self.clients = arg1
         
-    def clientPayload(self,arg1):
+    def clientPayload(self,arg1, sqlFile):
         # TODO: Accept payload as a text file and create a sql statement
         print("Client SQL Statement Happens Here # %d" %arg1)
+        #replace above with below
+        #f = open(sqlFile, r)
+        #sqlCommand = ""
+        #for line in f:
+        #    sqlCommand += line
+        #f.close()
 
     
     def createChildren(self):
