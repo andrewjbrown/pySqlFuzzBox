@@ -100,7 +100,7 @@ def executeSQL(pg, db = 'resolve', user = 'postgres', password = '',
     pg -- the list of statements to execute
     db -- the name of the database to connect to (default = resolve)
     user -- the name of the user to connect with (default = postgres)
-    password -- the password to use (default = DaVinci)
+    password -- the password to use (default = )
     host -- the host to connect to (default = 192.168.2.151)
 
     """
