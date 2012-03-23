@@ -92,7 +92,7 @@ def mkSqlStatements(f, fileName = None):
     return pg
 
 
-def executeSQL(pg, db = 'resolve', user = 'postgres', password = 'DaVinci', 
+def executeSQL(pg, db = 'resolve', user = 'postgres', password = '', 
                 host = '192.168.2.151'):
     """
     Connects to a postgres database and executes a list of SQL statements.
